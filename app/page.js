@@ -108,11 +108,18 @@ export default function Home() {
           </div>
           <div>
             <p>
-              Updated service pricing and booking details are being finalized.
-              Reach out directly to ask about availability or to choose the session
-              that feels right for you.
+              Have a question or ready to schedule? Reach out directly and Michelle
+              will help you choose the session that feels right for you.
             </p>
-            <a className="button light" href="#top">The Quiet Alchemy</a>
+            <div className="contactActions">
+              <a className="button light" href="sms:+18155707804">Text Michelle</a>
+              <a className="button outlineLight" href="tel:+18155707804">Call Michelle</a>
+              <a className="button outlineLight" href="mailto:info@thequietalchemyreikiwellness.org?subject=Booking%20Inquiry%20-%20The%20Quiet%20Alchemy">Email Michelle</a>
+            </div>
+            <div className="contactDetails">
+              <a href="tel:+18155707804">(815) 570-7804</a>
+              <a href="mailto:info@thequietalchemyreikiwellness.org">info@thequietalchemyreikiwellness.org</a>
+            </div>
           </div>
         </div>
       </section>
