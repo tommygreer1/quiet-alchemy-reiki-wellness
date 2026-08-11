@@ -1,0 +1,86 @@
+:root {
+  --ink: #1f241f;
+  --paper: #f5f1e8;
+  --sage: #87947d;
+  --deep: #2f3a31;
+  --line: rgba(31,36,31,.14);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: Arial, Helvetica, sans-serif;
+}
+a { color: inherit; text-decoration: none; }
+.shell { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+
+.hero {
+  min-height: 90vh;
+  color: #fff;
+  background:
+    linear-gradient(rgba(22,28,23,.5), rgba(22,28,23,.66)),
+    radial-gradient(circle at 75% 20%, rgba(255,255,255,.14), transparent 34%),
+    linear-gradient(135deg, #66745e, #2d3a31 62%, #1f2822);
+}
+.nav {
+  min-height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255,255,255,.22);
+}
+.brand { font-family: Georgia, serif; font-size: 1.35rem; letter-spacing: .02em; }
+.navLinks { display: flex; gap: 28px; font-size: .93rem; }
+.heroInner { padding: 15vh 0 16vh; max-width: 850px; margin-left: max(20px, calc((100vw - 1120px)/2)); }
+.eyebrow { text-transform: uppercase; letter-spacing: .18em; font-size: .76rem; font-weight: 700; opacity: .9; }
+.eyebrow.dark { color: #596653; }
+h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; margin-top: 0; }
+h1 { font-size: clamp(3.4rem, 8vw, 7.4rem); line-height: .92; max-width: 780px; margin: 22px 0 30px; }
+h2 { font-size: clamp(2.4rem, 5vw, 4.6rem); line-height: 1; }
+h3 { font-size: 1.7rem; margin-bottom: 12px; }
+.heroCopy { font-size: clamp(1.05rem, 2vw, 1.3rem); line-height: 1.7; max-width: 660px; color: rgba(255,255,255,.88); }
+.heroActions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 34px; }
+.button { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 22px; border-radius: 999px; font-weight: 700; font-size: .92rem; }
+.button.primary { background: #fff; color: var(--deep); }
+.button.ghost { border: 1px solid rgba(255,255,255,.55); color: #fff; }
+.button.light { background: var(--paper); color: var(--deep); margin-top: 22px; }
+
+.section { padding: 110px 0; }
+.aboutGrid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 80px; }
+.bodyCopy { font-size: 1.16rem; line-height: 1.85; color: #515850; }
+.servicesSection { background: #ece7dd; }
+.sectionHeading { display: grid; grid-template-columns: 1.25fr .75fr; gap: 70px; align-items: end; margin-bottom: 55px; }
+.sectionHeading p { line-height: 1.8; color: #5d645b; }
+.serviceGrid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.serviceCard { min-height: 310px; padding: 30px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.serviceCard span { display: block; font-size: .72rem; letter-spacing: .14em; color: #7b8575; margin-bottom: 52px; }
+.serviceCard p { color: #60665e; line-height: 1.7; }
+.quoteSection { background: var(--paper); }
+.quoteCard { text-align: center; max-width: 860px; }
+.quoteCard p { font-family: Georgia, serif; font-size: clamp(2.2rem, 5vw, 4.7rem); line-height: 1.08; margin: 0 0 24px; }
+.quoteCard span { color: #777d73; }
+.contactSection { background: var(--deep); color: #fff; }
+.contactCard { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+.contactCard p { color: rgba(255,255,255,.76); line-height: 1.8; font-size: 1.08rem; }
+.footer { min-height: 110px; display: flex; justify-content: space-between; align-items: center; gap: 20px; font-size: .82rem; color: #6d736a; }
+
+@media (max-width: 800px) {
+  .navLinks { gap: 14px; font-size: .84rem; }
+  .heroInner { margin: 0 auto; padding-top: 13vh; }
+  .section { padding: 78px 0; }
+  .aboutGrid, .sectionHeading, .contactCard { grid-template-columns: 1fr; gap: 30px; }
+  .serviceGrid { grid-template-columns: 1fr; }
+  .serviceCard { min-height: 0; }
+  .serviceCard span { margin-bottom: 30px; }
+  .footer { align-items: flex-start; flex-direction: column; justify-content: center; }
+}
+
+@media (max-width: 520px) {
+  .shell { width: min(100% - 28px, 1120px); }
+  .brand { font-size: 1.05rem; }
+  .navLinks a:nth-child(1) { display: none; }
+  h1 { font-size: 3.4rem; }
+}
