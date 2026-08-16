@@ -118,6 +118,14 @@ export default function Home() {
               <a className="button light" href="sms:+18155707804">Text Michelle</a>
               <a className="button outlineLight" href="tel:+18155707804">Call Michelle</a>
               <a className="button outlineLight" href="mailto:info@thequietalchemyreikiwellness.org?subject=Booking%20Inquiry%20-%20The%20Quiet%20Alchemy">Email Michelle</a>
+              <a
+                className="button outlineLight"
+                href="https://g.page/r/CebqAUYiUDIUEAI/review"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Leave a Google Review
+              </a>
             </div>
             <div className="contactDetails">
               <a href="tel:+18155707804">(815) 570-7804</a>
