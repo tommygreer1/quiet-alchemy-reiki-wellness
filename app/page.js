@@ -39,11 +39,11 @@ export default function Home() {
         </nav>
 
         <div id="top" className="heroInner shell">
-          <p className="eyebrow">Reiki · Intuition · Connection</p>
+          <p className="eyebrow">Reiki · Intuition · Connection · Ellijay, Georgia</p>
           <h1>Come back to yourself.</h1>
           <p className="heroCopy">
             A calm, intentional space for Reiki, psychic readings, mediumship,
-            channeling, intuitive guidance, and breathwork.
+            channeling, intuitive guidance, and breathwork in Ellijay and North Georgia.
           </p>
           <div className="heroActions">
             <a className="button primary" href="#services">Explore services</a>
@@ -54,7 +54,7 @@ export default function Home() {
 
       <section id="about" className="section shell aboutGrid">
         <div>
-          <p className="eyebrow dark">The Quiet Alchemy</p>
+          <p className="eyebrow dark">The Quiet Alchemy · Ellijay, GA</p>
           <h2>Healing does not have to be loud.</h2>
         </div>
         <div className="bodyCopy">
@@ -63,9 +63,11 @@ export default function Home() {
             reconnecting with what your mind and body have been asking for.
           </p>
           <p>
-            Sessions are personalized and intuitive, blending grounded presence
-            with energetic and spiritual practices in a way that feels supportive,
-            approachable, and uniquely yours.
+            Based in the Ellijay area and serving North Georgia, including Blue Ridge
+            and Jasper, sessions are personalized and intuitive, blending grounded
+            presence with energetic and spiritual practices in a way that feels
+            supportive, approachable, and uniquely yours. Distance sessions are also
+            available beyond North Georgia.
           </p>
         </div>
       </section>
@@ -74,7 +76,7 @@ export default function Home() {
         <div className="shell">
           <p className="eyebrow dark">Offerings</p>
           <div className="sectionHeading">
-            <h2>Choose what meets you where you are.</h2>
+            <h2>Reiki and intuitive services in Ellijay, Georgia.</h2>
             <p>
               Each offering is designed to create space for clarity, balance,
               reflection, and meaningful connection.
@@ -108,8 +110,9 @@ export default function Home() {
           </div>
           <div>
             <p>
-              Have a question or ready to schedule? Reach out directly and Michelle
-              will help you choose the session that feels right for you.
+              Have a question or ready to schedule a Reiki, psychic reading,
+              mediumship, channeling, or breathwork session in Ellijay or North Georgia?
+              Reach out directly and Michelle will help you choose the session that feels right for you.
             </p>
             <div className="contactActions">
               <a className="button light" href="sms:+18155707804">Text Michelle</a>
@@ -126,7 +129,7 @@ export default function Home() {
 
       <footer className="footer shell">
         <p>© {new Date().getFullYear()} The Quiet Alchemy</p>
-        <p>Reiki · Psychic Readings · Mediumship · Distance Sessions</p>
+        <p>Reiki · Psychic Readings · Mediumship · Ellijay & North Georgia</p>
       </footer>
     </main>
   );
