@@ -36,7 +36,7 @@ a { color: inherit; text-decoration: none; }
 .navLinks { display: flex; gap: 28px; font-size: .93rem; }
 .heroInner { padding: 15vh 0 16vh; max-width: 850px; margin-left: max(20px, calc((100vw - 1120px)/2)); }
 .eyebrow { text-transform: uppercase; letter-spacing: .18em; font-size: .76rem; font-weight: 700; opacity: .9; }
-.eyebrow.dark { color: #596653; }
+.eyebrow.dark { color: #46513f; }
 h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; margin-top: 0; }
 h1 { font-size: clamp(3.4rem, 8vw, 7.4rem); line-height: .92; max-width: 780px; margin: 22px 0 30px; }
 h2 { font-size: clamp(2.4rem, 5vw, 4.6rem); line-height: 1; }
@@ -55,22 +55,22 @@ h3 { font-size: 1.7rem; margin-bottom: 12px; }
 .bodyCopy { font-size: 1.16rem; line-height: 1.85; color: #515850; }
 .servicesSection { background: #ece7dd; }
 .sectionHeading { display: grid; grid-template-columns: 1.25fr .75fr; gap: 70px; align-items: end; margin-bottom: 55px; }
-.sectionHeading p { line-height: 1.8; color: #5d645b; }
+.sectionHeading p { line-height: 1.8; color: #4f554d; }
 .serviceGrid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .serviceCard { min-height: 310px; padding: 30px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.serviceCard span { display: block; font-size: .72rem; letter-spacing: .14em; color: #7b8575; margin-bottom: 52px; }
-.serviceCard p { color: #60665e; line-height: 1.7; }
+.serviceCard span { display: block; font-size: .72rem; letter-spacing: .14em; color: #586152; margin-bottom: 52px; }
+.serviceCard p { color: #50564e; line-height: 1.7; }
 .quoteSection { background: var(--paper); }
 .quoteCard { text-align: center; max-width: 860px; }
 .quoteCard p { font-family: Georgia, serif; font-size: clamp(2.2rem, 5vw, 4.7rem); line-height: 1.08; margin: 0 0 24px; }
-.quoteCard span { color: #777d73; }
+.quoteCard span { color: #5c6259; }
 .contactSection { background: var(--deep); color: #fff; }
 .contactCard { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
-.contactCard p { color: rgba(255,255,255,.76); line-height: 1.8; font-size: 1.08rem; }
+.contactCard p { color: rgba(255,255,255,.82); line-height: 1.8; font-size: 1.08rem; }
 .contactActions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
-.contactDetails { display: flex; flex-direction: column; gap: 8px; margin-top: 26px; color: rgba(255,255,255,.78); font-size: .92rem; }
+.contactDetails { display: flex; flex-direction: column; gap: 8px; margin-top: 26px; color: rgba(255,255,255,.84); font-size: .92rem; }
 .contactDetails a:hover { color: #fff; }
-.footer { min-height: 110px; display: flex; justify-content: space-between; align-items: center; gap: 20px; font-size: .82rem; color: #6d736a; }
+.footer { min-height: 110px; display: flex; justify-content: space-between; align-items: center; gap: 20px; font-size: .82rem; color: #555c52; }
 
 @media (max-width: 800px) {
   .navLinks { gap: 14px; font-size: .84rem; }
