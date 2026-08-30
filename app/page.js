@@ -55,20 +55,30 @@ export default function Home() {
       <section id="about" className="section shell aboutGrid">
         <div>
           <p className="eyebrow dark">The Quiet Alchemy · Ellijay, GA</p>
-          <h2>Healing does not have to be loud.</h2>
+          <h2>Meet Michelle</h2>
         </div>
         <div className="bodyCopy">
+          <p>I’m Michelle, the heart behind The Quiet Alchemy.</p>
           <p>
-            The Quiet Alchemy is a space for slowing down, listening inward, and
-            reconnecting with what your mind and body have been asking for.
+            As a compassionate Reiki practitioner, breathwork and meditation guide,
+            and intuitive healer, I’ve created The Quiet Alchemy as a peaceful space
+            to slow down, reconnect, breathe, and come back to yourself.
           </p>
           <p>
-            Based in the Ellijay area and serving North Georgia, including Blue Ridge
-            and Jasper, sessions are personalized and intuitive, blending grounded
-            presence with energetic and spiritual practices in a way that feels
-            supportive, approachable, and uniquely yours. Distance sessions are also
-            available beyond North Georgia.
+            My approach is gentle, intuitive, and deeply personal. At The Quiet Alchemy,
+            I hold space for you to release what no longer serves you, find balance,
+            and reconnect with the quiet wisdom within.
           </p>
+          <p>
+            I believe healing doesn’t always begin with doing more. Sometimes it begins
+            with becoming still enough to listen.
+          </p>
+          <p>
+            Whether you’re seeking relaxation, energetic balance, deeper self-awareness,
+            spiritual connection, or simply a moment to breathe, my intention is to meet
+            you exactly where you are—with compassion, presence, and without judgment.
+          </p>
+          <p><strong>Come as you are. Leave feeling a little more like your true self.</strong></p>
         </div>
       </section>
 
