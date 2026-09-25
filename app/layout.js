@@ -9,12 +9,12 @@ export const metadata = {
     template: "%s | The Quiet Alchemy",
   },
   description:
-    "The Quiet Alchemy offers Reiki, distance Reiki, psychic readings, mediumship, channeling, intuitive guidance, and breathwork in Ellijay, Blue Ridge, Jasper, and North Georgia.",
+    "The Quiet Alchemy offers Reiki, distance Reiki, psychic readings, sound healing journeys, intuitive guidance, and breathwork in Ellijay, Blue Ridge, Jasper, and North Georgia.",
   keywords: [
     "Reiki Ellijay GA",
     "Reiki North Georgia",
     "psychic readings Ellijay GA",
-    "mediumship Ellijay GA",
+    "sound healing Ellijay GA",
     "energy healing Ellijay",
     "distance Reiki",
     "breathwork Ellijay GA",
@@ -28,14 +28,14 @@ export const metadata = {
     siteName: "The Quiet Alchemy",
     title: "Reiki & Psychic Readings in Ellijay, GA | The Quiet Alchemy",
     description:
-      "Reiki, psychic readings, mediumship, channeling, intuitive guidance, breathwork, and distance sessions serving Ellijay and North Georgia.",
+      "Reiki, psychic readings, sound healing journeys, intuitive guidance, breathwork, and distance sessions serving Ellijay and North Georgia.",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: "The Quiet Alchemy | Ellijay, GA",
     description:
-      "Reiki, psychic readings, mediumship, intuitive guidance, breathwork, and distance sessions in Ellijay and North Georgia.",
+      "Reiki, psychic readings, sound healing journeys, intuitive guidance, breathwork, and distance sessions in Ellijay and North Georgia.",
   },
   robots: { index: true, follow: true },
 };
@@ -46,9 +46,9 @@ const localBusinessSchema = {
   name: "The Quiet Alchemy",
   url: siteUrl,
   telephone: "+1-815-570-7804",
-  email: "info@thequietalchemyreikiwellness.org",
+  email: "Michellebartrum25@gmail.com",
   description:
-    "Reiki, distance Reiki, psychic readings, mediumship, channeling, intuitive guidance, and breathwork serving Ellijay and North Georgia.",
+    "Reiki, distance Reiki, psychic readings, sound healing journeys, intuitive guidance, and breathwork serving Ellijay and North Georgia.",
   areaServed: [
     { "@type": "City", name: "Ellijay", addressRegion: "GA" },
     { "@type": "City", name: "Blue Ridge", addressRegion: "GA" },
@@ -59,8 +59,7 @@ const localBusinessSchema = {
     "Reiki",
     "Distance Reiki",
     "Psychic Readings",
-    "Mediumship",
-    "Channeling",
+    "Sound Healing Journeys",
     "Intuitive Guidance",
     "Breathwork",
   ],
