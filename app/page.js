@@ -12,8 +12,8 @@ const services = [
     text: "Intuitive sessions created to bring clarity, insight, and perspective around the questions, patterns, or transitions showing up in your life."
   },
   {
-    title: "Mediumship & Channeling",
-    text: "A compassionate, grounded space for intuitive channeling and mediumship work, approached with care, openness, and respect."
+    title: "Sound Healing Journey",
+    text: "Sound healing uses therapeutic sound and vibration to guide you into deep relaxation, balance, and inner peace through crystal and Tibetan singing bowls, melodic handpans, and elemental chimes."
   },
   {
     title: "Intuitive Guidance",
@@ -42,8 +42,8 @@ export default function Home() {
           <p className="eyebrow">Reiki · Intuition · Connection · Ellijay, Georgia</p>
           <h1>Come back to yourself.</h1>
           <p className="heroCopy">
-            A calm, intentional space for Reiki, psychic readings, mediumship,
-            channeling, intuitive guidance, and breathwork in Ellijay and North Georgia.
+            A calm, intentional space for Reiki, psychic readings, sound healing
+            journeys, intuitive guidance, and breathwork in Ellijay and North Georgia.
           </p>
           <div className="heroActions">
             <a className="button primary" href="#services">Explore services</a>
@@ -120,13 +120,13 @@ export default function Home() {
           <div>
             <p>
               Have a question or ready to schedule a Reiki, psychic reading,
-              mediumship, channeling, or breathwork session in Ellijay or North Georgia?
+              sound healing journey, or breathwork session in Ellijay or North Georgia?
               Reach out directly and Michelle will help you choose the session that feels right for you.
             </p>
             <div className="contactActions">
               <a className="button light" href="sms:+18155707804">Text Michelle</a>
               <a className="button outlineLight" href="tel:+18155707804">Call Michelle</a>
-              <a className="button outlineLight" href="mailto:info@thequietalchemyreikiwellness.org?subject=Booking%20Inquiry%20-%20The%20Quiet%20Alchemy">Email Michelle</a>
+              <a className="button outlineLight" href="mailto:Michellebartrum25@gmail.com?subject=Booking%20Inquiry%20-%20The%20Quiet%20Alchemy">Email Michelle</a>
               <a
                 className="button outlineLight"
                 href="https://g.page/r/CebqAUYiUDIUEAI/review"
@@ -138,7 +138,7 @@ export default function Home() {
             </div>
             <div className="contactDetails">
               <a href="tel:+18155707804">(815) 570-7804</a>
-              <a href="mailto:info@thequietalchemyreikiwellness.org">info@thequietalchemyreikiwellness.org</a>
+              <a href="mailto:Michellebartrum25@gmail.com">Michellebartrum25@gmail.com</a>
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@ export default function Home() {
 
       <footer className="footer shell">
         <p>© {new Date().getFullYear()} The Quiet Alchemy</p>
-        <p>Reiki · Psychic Readings · Mediumship · Ellijay & North Georgia</p>
+        <p>Reiki · Psychic Readings · Sound Healing · Ellijay & North Georgia</p>
       </footer>
     </main>
   );
