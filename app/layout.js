@@ -5,37 +5,34 @@ const siteUrl = "https://www.thequietalchemyreikiwellness.org";
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Reiki & Psychic Readings in Ellijay, GA | The Quiet Alchemy",
+    default: "Sound Healing Journeys | The Quiet Alchemy",
     template: "%s | The Quiet Alchemy",
   },
   description:
-    "The Quiet Alchemy offers Reiki, distance Reiki, psychic readings, sound healing journeys, intuitive guidance, and breathwork in Ellijay, Blue Ridge, Jasper, and North Georgia.",
+    "The Quiet Alchemy offers restorative sound healing journeys with singing bowls, melodic handpans, and elemental chimes. Other offerings are available by inquiry.",
   keywords: [
-    "Reiki Ellijay GA",
-    "Reiki North Georgia",
-    "psychic readings Ellijay GA",
-    "sound healing Ellijay GA",
-    "energy healing Ellijay",
-    "distance Reiki",
-    "breathwork Ellijay GA",
-    "Reiki Blue Ridge GA",
-    "Reiki Jasper GA",
+    "sound healing",
+    "sound healing journeys",
+    "singing bowl sound bath",
+    "crystal singing bowls",
+    "handpan sound healing",
+    "The Quiet Alchemy",
   ],
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     url: siteUrl,
     siteName: "The Quiet Alchemy",
-    title: "Reiki & Psychic Readings in Ellijay, GA | The Quiet Alchemy",
+    title: "Sound Healing Journeys | The Quiet Alchemy",
     description:
-      "Reiki, psychic readings, sound healing journeys, intuitive guidance, breathwork, and distance sessions serving Ellijay and North Georgia.",
+      "Restorative sound healing journeys with singing bowls, melodic handpans, and elemental chimes. Other offerings are available by inquiry.",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Quiet Alchemy | Ellijay, GA",
+    title: "The Quiet Alchemy | Sound Healing Journeys",
     description:
-      "Reiki, psychic readings, sound healing journeys, intuitive guidance, breathwork, and distance sessions in Ellijay and North Georgia.",
+      "Sound healing journeys with singing bowls, melodic handpans, and elemental chimes.",
   },
   robots: { index: true, follow: true },
 };
@@ -48,7 +45,7 @@ const localBusinessSchema = {
   telephone: "+1-815-570-7804",
   email: "Michellebartrum25@gmail.com",
   description:
-    "Reiki, distance Reiki, psychic readings, sound healing journeys, intuitive guidance, and breathwork serving Ellijay and North Georgia.",
+    "Restorative sound healing journeys with singing bowls, melodic handpans, and elemental chimes. Other offerings are available by inquiry.",
   areaServed: [
     { "@type": "City", name: "Ellijay", addressRegion: "GA" },
     { "@type": "City", name: "Blue Ridge", addressRegion: "GA" },
