@@ -1,5 +1,9 @@
 const services = [
   {
+    title: "Sound Healing Journey",
+    text: "Settle into deep relaxation through therapeutic sound and vibration, with crystal and Tibetan singing bowls, melodic handpans, and elemental chimes."
+  },
+  {
     title: "Reiki",
     text: "Gentle energy work designed to support relaxation, grounding, balance, and a deeper sense of connection with yourself."
   },
@@ -10,10 +14,6 @@ const services = [
   {
     title: "Psychic Readings",
     text: "Intuitive sessions created to bring clarity, insight, and perspective around the questions, patterns, or transitions showing up in your life."
-  },
-  {
-    title: "Sound Healing Journey",
-    text: "Sound healing uses therapeutic sound and vibration to guide you into deep relaxation, balance, and inner peace through crystal and Tibetan singing bowls, melodic handpans, and elemental chimes."
   },
   {
     title: "Intuitive Guidance",
@@ -39,30 +39,30 @@ export default function Home() {
         </nav>
 
         <div id="top" className="heroInner shell">
-          <p className="eyebrow">Reiki · Intuition · Connection · Ellijay, Georgia</p>
-          <h1>Come back to yourself.</h1>
+          <p className="eyebrow">Sound Healing Journeys · The Quiet Alchemy</p>
+          <h1>Find stillness in the sound.</h1>
           <p className="heroCopy">
-            A calm, intentional space for Reiki, psychic readings, sound healing
-            journeys, intuitive guidance, and breathwork in Ellijay and North Georgia.
+            A restorative sound healing experience with singing bowls, melodic handpans,
+            and elemental chimes. Reiki and other intuitive offerings are available by inquiry.
           </p>
           <div className="heroActions">
-            <a className="button primary" href="#services">Explore services</a>
-            <a className="button ghost" href="#contact">Book a session</a>
+            <a className="button primary" href="#services">Explore sound healing</a>
+            <a className="button ghost" href="#contact">Ask about a session</a>
           </div>
         </div>
       </section>
 
       <section id="about" className="section shell aboutGrid">
         <div>
-          <p className="eyebrow dark">The Quiet Alchemy · Ellijay, GA</p>
+          <p className="eyebrow dark">The Quiet Alchemy</p>
           <h2>Meet Michelle</h2>
         </div>
         <div className="bodyCopy">
           <p>I’m Michelle, the heart behind The Quiet Alchemy.</p>
           <p>
-            As a compassionate Reiki practitioner, breathwork and meditation guide,
-            and intuitive healer, I’ve created The Quiet Alchemy as a peaceful space
-            to slow down, reconnect, breathe, and come back to yourself.
+            As a sound healing practitioner, Reiki practitioner, and intuitive guide,
+            I created The Quiet Alchemy to offer a peaceful moment to slow down,
+            reconnect, and come back to yourself through sound.
           </p>
           <p>
             My approach is gentle, intuitive, and deeply personal. At The Quiet Alchemy,
@@ -84,18 +84,21 @@ export default function Home() {
 
       <section id="services" className="section servicesSection">
         <div className="shell">
-          <p className="eyebrow dark">Offerings</p>
+          <p className="eyebrow dark">Featured offering · Sound healing</p>
           <div className="sectionHeading">
-            <h2>Reiki and intuitive services in Ellijay, Georgia.</h2>
+            <h2>Sound healing journeys for rest, grounding, and reconnection.</h2>
             <p>
-              Each offering is designed to create space for clarity, balance,
-              reflection, and meaningful connection.
+              Experience singing bowls, melodic handpans, and elemental chimes.
+              Michelle’s other offerings are available by inquiry.
             </p>
           </div>
 
           <div className="serviceGrid">
             {services.map((service) => (
-              <article className="serviceCard" key={service.title}>
+              <article
+                className={`serviceCard ${service.title === "Sound Healing Journey" ? "featuredService" : ""}`}
+                key={service.title}
+              >
                 <h3>{service.title}</h3>
                 <p>{service.text}</p>
               </article>
@@ -119,9 +122,8 @@ export default function Home() {
           </div>
           <div>
             <p>
-              Have a question or ready to schedule a Reiki, psychic reading,
-              sound healing journey, or breathwork session in Ellijay or North Georgia?
-              Reach out directly and Michelle will help you choose the session that feels right for you.
+              Interested in a sound healing journey? Reach out to ask about availability
+              or to learn which session may feel right for you. Other offerings are available by inquiry.
             </p>
             <div className="contactActions">
               <a className="button light" href="sms:+18155707804">Text Michelle</a>
@@ -146,7 +148,7 @@ export default function Home() {
 
       <footer className="footer shell">
         <p>© {new Date().getFullYear()} The Quiet Alchemy</p>
-        <p>Reiki · Psychic Readings · Sound Healing · Ellijay & North Georgia</p>
+        <p>Sound Healing Journeys · The Quiet Alchemy</p>
       </footer>
     </main>
   );
