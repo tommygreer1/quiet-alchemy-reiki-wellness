@@ -35,11 +35,11 @@ export default function Home() {
         </nav>
 
         <div id="top" className="heroInner shell">
-          <p className="eyebrow">Sound Healing Journeys · The Quiet Alchemy</p>
-          <h1>Find stillness in the sound.</h1>
+          <p className="eyebrow">Sound Healing & Reiki · Woodstock, Georgia</p>
+          <h1>Sound Healing & Reiki</h1>
           <p className="heroCopy">
-            A restorative sound healing experience with singing bowls, melodic handpans,
-            and elemental chimes. Reiki and other intuitive offerings are available by inquiry.
+            Find your moment of stillness through restorative sound healing and Reiki
+            in Woodstock, Georgia. Other offerings are available by inquiry.
           </p>
           <div className="heroActions">
             <a className="button primary" href="#services">Explore sound healing</a>
@@ -82,7 +82,7 @@ export default function Home() {
         <div className="shell">
           <p className="eyebrow dark">Featured offering · Sound healing</p>
           <div className="sectionHeading">
-            <h2>Sound healing journeys for rest, grounding, and reconnection.</h2>
+            <h2>Sound Healing & Reiki for rest, grounding, and reconnection.</h2>
             <p>
               Experience singing bowls, melodic handpans, and elemental chimes.
               Michelle’s other offerings are available by inquiry.
@@ -137,6 +137,7 @@ export default function Home() {
             <div className="contactDetails">
               <a href="tel:+18155707804">(815) 570-7804</a>
               <a href="mailto:Michellebartrum25@gmail.com">Michellebartrum25@gmail.com</a>
+              <a href="https://www.google.com/maps/search/?api=1&query=4463+Towne+Lake+Parkway+Suite+100+Woodstock+GA+30189" target="_blank" rel="noopener noreferrer">4463 Towne Lake Parkway, Suite 100, Woodstock, GA 30189</a>
             </div>
           </div>
         </div>
@@ -144,7 +145,7 @@ export default function Home() {
 
       <footer className="footer shell">
         <p>© {new Date().getFullYear()} The Quiet Alchemy</p>
-        <p>Sound Healing Journeys · The Quiet Alchemy</p>
+        <p>Sound Healing & Reiki · Woodstock, GA</p>
       </footer>
     </main>
   );
