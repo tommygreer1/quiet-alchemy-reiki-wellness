@@ -12,10 +12,6 @@ const services = [
     text: "Receive Reiki from wherever you are. Distance sessions offer the same intentional, restorative space without needing to be physically present."
   },
   {
-    title: "Psychic Readings",
-    text: "Intuitive sessions created to bring clarity, insight, and perspective around the questions, patterns, or transitions showing up in your life."
-  },
-  {
     title: "Intuitive Guidance",
     text: "Personalized support for reconnecting with your intuition, exploring what feels aligned, and moving forward with greater clarity."
   },
