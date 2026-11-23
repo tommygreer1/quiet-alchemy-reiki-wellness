@@ -55,7 +55,6 @@ const localBusinessSchema = {
   serviceType: [
     "Reiki",
     "Distance Reiki",
-    "Psychic Readings",
     "Sound Healing Journeys",
     "Intuitive Guidance",
     "Breathwork",
