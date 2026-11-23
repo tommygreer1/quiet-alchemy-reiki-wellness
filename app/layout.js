@@ -5,13 +5,15 @@ const siteUrl = "https://www.thequietalchemyreikiwellness.org";
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Sound Healing Journeys | The Quiet Alchemy",
+    default: "Sound Healing & Reiki in Woodstock, GA | The Quiet Alchemy",
     template: "%s | The Quiet Alchemy",
   },
   description:
-    "The Quiet Alchemy offers restorative sound healing journeys with singing bowls, melodic handpans, and elemental chimes. Other offerings are available by inquiry.",
+    "The Quiet Alchemy offers sound healing and Reiki in Woodstock, Georgia. Other offerings are available by inquiry.",
   keywords: [
     "sound healing",
+    "Reiki Woodstock GA",
+    "sound healing Woodstock GA",
     "sound healing journeys",
     "singing bowl sound bath",
     "crystal singing bowls",
@@ -23,16 +25,16 @@ export const metadata = {
     type: "website",
     url: siteUrl,
     siteName: "The Quiet Alchemy",
-    title: "Sound Healing Journeys | The Quiet Alchemy",
+    title: "Sound Healing & Reiki in Woodstock, GA | The Quiet Alchemy",
     description:
-      "Restorative sound healing journeys with singing bowls, melodic handpans, and elemental chimes. Other offerings are available by inquiry.",
+      "Sound healing and Reiki sessions in Woodstock, Georgia. Other offerings are available by inquiry.",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Quiet Alchemy | Sound Healing Journeys",
+    title: "The Quiet Alchemy | Sound Healing & Reiki",
     description:
-      "Sound healing journeys with singing bowls, melodic handpans, and elemental chimes.",
+      "Sound healing and Reiki sessions in Woodstock, Georgia.",
   },
   robots: { index: true, follow: true },
 };
@@ -45,13 +47,16 @@ const localBusinessSchema = {
   telephone: "+1-815-570-7804",
   email: "Michellebartrum25@gmail.com",
   description:
-    "Restorative sound healing journeys with singing bowls, melodic handpans, and elemental chimes. Other offerings are available by inquiry.",
-  areaServed: [
-    { "@type": "City", name: "Ellijay", addressRegion: "GA" },
-    { "@type": "City", name: "Blue Ridge", addressRegion: "GA" },
-    { "@type": "City", name: "Jasper", addressRegion: "GA" },
-    { "@type": "AdministrativeArea", name: "North Georgia" },
-  ],
+    "Sound healing and Reiki sessions in Woodstock, Georgia. Other offerings are available by inquiry.",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "4463 Towne Lake Parkway, Suite 100",
+    addressLocality: "Woodstock",
+    addressRegion: "GA",
+    postalCode: "30189",
+    addressCountry: "US",
+  },
+  areaServed: [{ "@type": "City", name: "Woodstock", addressRegion: "GA" }],
   serviceType: [
     "Reiki",
     "Distance Reiki",
